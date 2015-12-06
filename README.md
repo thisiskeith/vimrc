@@ -1,7 +1,7 @@
 # vimrc
 ViM runtime configuration
 
-#### Includes
+#### Highlights
 - NERDTree
 - JsDoc
 - ES6 syntax highlighting
@@ -10,3 +10,6 @@ ViM runtime configuration
 ## Installation
 - Get repo `git clone https://github.com/thisiskeith/vimrc.git`
 - Run installer `./install.sh`
+
+## Update submodules
+- Fetch latest from repos `git submodule update`
