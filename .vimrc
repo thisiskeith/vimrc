@@ -14,6 +14,7 @@ colorscheme brogrammer
 set mouse=a
 let g:NERDTreeWinSize=44
 set formatoptions-=cro
+nmap \e :NERDTreeToggle<CR>
 
 " Highlight trailing whitespace, tabs, nbsp
 exec "set listchars=tab:\uBB\uBB,trail:\uB7,nbsp:~"
