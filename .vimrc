@@ -8,6 +8,7 @@ set autoindent
 set smarttab
 set colorcolumn=80,100,120
 set ruler
+set cursorline
 syntax on
 set t_Co=256
 colorscheme brogrammer
