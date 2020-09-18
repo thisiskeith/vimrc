@@ -1,8 +1,8 @@
 execute pathogen#infect()
 filetype plugin indent on
 set number
-set tabstop=4
-set shiftwidth=4
+set tabstop=2
+set shiftwidth=2
 set expandtab
 set autoindent
 set smarttab
@@ -23,3 +23,13 @@ set list
 
 " Trim whitespace
 autocmd BufWritePre * :%s/\s\+$//e
+
+" Standard
+let g:ale_linters = {
+\   'javascript': ['standard'],
+\}
+let g:ale_fixers = {'javascript': ['standard']}
+
+" Standard lint/fix on save
+let g:ale_lint_on_save = 1
+let g:ale_fix_on_save = 1
